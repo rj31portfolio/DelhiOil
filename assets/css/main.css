@@ -1681,3 +1681,47 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+/* whatsapp */
+.whatsapp{
+  position: fixed;
+  bottom: 71px;
+  right: 22px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .1s all ease-in-out;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  box-shadow: 0 0 .75rem #18d26e;
+  background-color: #18d26e;
+}
+.whatsapp:hover{
+  background-color: white;
+  color: #18d26e;
+}
+.call{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  transition: .1s all ease-in-out;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  background-color: #222222;
+  box-shadow: 0 0 .5rem #eee;
+}
+.call:hover{
+  background-color: white;
+  color: #222222;
+}
