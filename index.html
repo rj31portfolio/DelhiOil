@@ -14,7 +14,7 @@
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fon  ts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
@@ -33,11 +33,12 @@
 
 <body class="index-page">
 
+  <!-- Navbar section -->
   <header id="header" class="header w-100 d-flex align-items-center position-absolute">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <a href="index.html"
         class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo --><img src="assets/img/logo-bg.png" alt="">
+        <!-- Uncomment the line below if you also wish to use an image logo --><img class="col-10 col-md-10" src="assets/img/logo-bg.png" alt="">
         <!-- <h1 class="sitename">Delhi Oil & Chemical Company</h1> -->
       </a>
       <nav id="navmenu" class="navmenu">
@@ -52,23 +53,23 @@
               <!-- <li><a href="#">Dropdown 1</a></li> -->
               <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
                     class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">CUTTING OIL</a></li>
-                  <li><a href="#">MOBIL OIL</a></li>
-                  <li><a href="#">TRANSFORMER OIL</a></li>
+                <ul class="overflow-auto" style="max-height: 400px;">
+                  <li><a href="#">WATER SOLUBLE CUTTING OIL</a></li>
                   <li><a href="#">HYDRAULIC OIL</a></li>
+                  <li><a href="#">INDUSTRIAL GEAR OIL</a></li>
+                  <li><a href="#">TRANSFORMER OIL</a></li>
+                  <li><a href="#">SHUTTERING OIL</a></li>
+                  <li><a href="#" class="text-uppercase">Compressor Oil </a></li>
+                  <li><a href="#">EDM OIL</a></li>
+                  <li><a href="#">RUBBER PROCESSING OIL</a></li>
                   <li><a href="#">QUENCHING OIL</a></li>
-                  <li><a href="#">STATE CUTTING OIL </a></li>
-                  <li><a href="#">ENGINE OIL </a></li>
-                  <li><a href="#">GEAR OIL 90 </a></li>
-                  <li><a href="#">GEAR OIL 140</a></li>
-                  <li><a href="#">GEAR OIL 320</a></li>
-                  <li><a href="#">Light Liquid Paraffin ( LLP )</a></li>
+                  <li><a href="#"class="text-uppercase">Neat Cutting Oil / State Cutting Oil</a></li>
+                  <!-- <li><a href="#">Light Liquid Paraffin ( LLP )</a></li>
                   <li><a href="#">Heavy Liquid Paraffin ( HLP ) </a></li>
                   <li><a href="#">High Temperature Grease </a></li>
                   <li><a href="#">Sewing Machine Oil ( White ) </a></li>
                   <li><a href="#">WHITE OIL</a></li>
-                  <li><a href="#">Pichari Pressure Oil</a></li>
+                  <li><a href="#">Pichari Pressure Oil</a></li> -->
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>COATINGS</span> <i
@@ -104,58 +105,86 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav><a class="btn-getstarted bg-danger" href="index.html#about">Get Started</a>
+      </nav><a class="btn-getstarted bg-danger d-none d-md-flex" href="index.html#about">Get Started</a>
     </div>
   </header>
+  <!-- End navbar section -->
 
-  <main class="main">
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+  <!-- Banner section -->
+  <main class="main pt-5 pt-md-0">
+  
+    <!-- banner section -->
+     <div id="carouselId" class="carousel slide pt-3 pt-md-0" data-bs-ride="carousel">
 
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="c arousel-item active"><img class="carousel-image img-fluid w-100" src="assets/img/3.jpg" alt="">
-          <!-- <video width="100%" height="100vh" autoplay muted loop>
-            <source src="https://videos.pexels.com/video-files/14132388/14132388-uhd_2730_1440_25fps.mp4" type="video/mp4">
-            <source src="https://videos.pexels.com/video-files/14132388/14132388-uhd_2730_1440_25fps.mp4" type="video/ogg">
-          </video> -->
-          <!-- <div class="carousel-container text-center">
-            <div class="container">
-              <div class="col-md-12">
-                <div class="row gy-3 align-items-center">
-
-                  <div class="col-md-6 text-start">
-                    <h6 class=" text-uppercase fs-4 ">Welcome To Matrol</h6>
-                    <h2>Where Qua Reliability</span></h2>
-                    <p>We are the best in oil & chemical industry for our clients. we create a beautiful bond with our clients
-                     and also delivers best quality goods & services to satisfy our client need. </p><a href="#featured-services" class="btn-get-started">Get Started</a>
-                  </div>
-                  <div class="col-md-6"><img class="img fluid banner-product" src="assets/img/Untitled design dfinal.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div><!-- End Carousel Item -->
-
-
-        <!-- <div class="carousel-item"><img src="assets/assets/img//template/Groovin/hero-carousel/hero-carousel-3.jpg" alt="">
-          <div class="carousel-container">
-            <h2>Temporibus autem quibusdam</h2>
-            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p><a href="#featured-services" class="btn-get-started">Get Started</a>
+      <!-- This is the indication icon for the carousel section -->
+      <!-- <ol class="carousel-indicators">
+        <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="First slide"
+        ></li>
+        <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="1"
+          aria-label="Second slide"
+        ></li>
+        <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="2"
+          aria-label="Third slide"
+        ></li>
+      </ol> -->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img
+            src="https://motulindia.com/assets/images/banner.jpg"
+            class="w-100 d-block"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-none d-md-block" style="right: 50%; bottom: 9.25rem;"  data-aos-duration="500"  data-aos="zoom-in">
+            <h3 style="font-size: 3.80rem; font-weight: 900;" class="text-white">Experience the
+              thrill of Peak
+              Performance!</h3>
+            <p style="font-weight: 700;">The 7100 series offers a hassle-free high performance solution</p>
           </div>
-        </div> -->
-        <!-- End Carousel Item -->
-
-        <!-- <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a><a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next"><span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-        <ol class="carousel-indicators"></ol> -->
-
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://motulindia.com/assets/images/banner-thril.webp"
+            class="w-100 d-block"
+            alt="Second slide"
+          />
+          <div class="carousel-caption d-none d-md-block" style="right: 50%; bottom: 9.25rem;">
+            <h3 style="font-size: 3.80rem; font-weight: 900;" class="text-white" data-aos-duration="1000"  data-aos="fade-down">Experience the
+              thrill of Peak
+              Performance!</h3>
+            <p style="font-weight: 700;">The 7100 series offers a hassle-free high performance solution</p>
+          </div>
+        </div>
+        
       </div>
-
-    </section><!-- /Hero Section -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+     </div>     
+     <!-- End banner section -->
 
     <!-- About Section -->
     <section id="about" class="bg-white about section">
@@ -229,7 +258,150 @@
           </div>
         </div>
       </div>
-    </section><!-- /About Section -->
+    </section>
+    <!-- /About Section -->
+
+    <!-- This is the reel section -->
+    <section class="reels-section">
+        <div class="container">
+            <h2 class="section-title">Product Reel Section</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="reel-container">
+                        <video src="assets/img/reel/Childer 1 (1).mp4" loop muted autoplay playsinline></video>
+                        <div class="reel-overlay">
+                            <h5 class="reel-title">reel heading</h5>
+                            <p class="reel-description">reel description</p>
+                            
+                            <!-- View and like Section -->
+                            <div class="reel-stats">
+                                <div class="reel-stat">
+                                    <i class="fas fa-eye"></i>
+                                    <span>24.5K</span>
+                                </div>
+                                <div class="reel-stat">
+                                    <i class="fas fa-heart"></i>
+                                    <span>1.2K</span>
+                                </div>
+                            </div>
+                            
+                            <div class="reel-actions">
+                                <button class="reel-action-btn" title="Like">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Share">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Save">
+                                    <i class="fas fa-bookmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="reel-container">
+                        <video src="assets/img/reel/Childer 2 (1).mp4" loop muted autoplay playsinline></video>
+                        <div class="reel-overlay">
+                            <h5 class="reel-title">reel heading</h5>
+                            <p class="reel-description">reel description</p>
+                            
+                            <div class="reel-stats">
+                                <div class="reel-stat">
+                                    <i class="fas fa-eye"></i>
+                                    <span>18.3K</span>
+                                </div>
+                                <div class="reel-stat">
+                                    <i class="fas fa-heart"></i>
+                                    <span>856</span>
+                                </div>
+                            </div>
+                            
+                            <div class="reel-actions">
+                                <button class="reel-action-btn" title="Like">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Share">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Save">
+                                    <i class="fas fa-bookmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="reel-container">
+                        <video src="assets/img/reel/Childer 3 (1).mp4" loop muted autoplay playsinline></video>
+                        <div class="reel-overlay">
+                            <h5 class="reel-title">reel heading</h5>
+                            <p class="reel-description">reel description</p>
+                            
+                            <div class="reel-stats">
+                                <div class="reel-stat">
+                                    <i class="fas fa-eye"></i>
+                                    <span>32.1K</span>
+                                </div>
+                                <div class="reel-stat">
+                                    <i class="fas fa-heart"></i>
+                                    <span>2.4K</span>
+                                </div>
+                            </div>
+                            
+                            <div class="reel-actions">
+                                <button class="reel-action-btn" title="Like">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Share">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Save">
+                                    <i class="fas fa-bookmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="reel-container">
+                        <video src="assets/img/reel/Childer 4 (1).mp4" loop muted autoplay playsinline></video>
+                        <div class="reel-overlay">
+                            <h5 class="reel-title">reel heading</h5>
+                            <p class="reel-description">reel description</p>
+                            
+                            <div class="reel-stats">
+                                <div class="reel-stat">
+                                    <i class="fas fa-eye"></i>
+                                    <span>15.7K</span>
+                                </div>
+                                <div class="reel-stat">
+                                    <i class="fas fa-heart"></i>
+                                    <span>723</span>
+                                </div>
+                            </div>
+                            
+                            <div class="reel-actions">
+                                <button class="reel-action-btn" title="Like">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Share">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                                <button class="reel-action-btn" title="Save">
+                                    <i class="fas fa-bookmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End reel section -->
 
     <!-- Products Section -->
     <section class="products bg-light section">
@@ -249,7 +421,6 @@
               </div>
               <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
             </div>
-
           </div>
           <div class="col-md-4">
             <div class="card bg-white border-white"><img class="card-img-top"
@@ -259,35 +430,6 @@
                 <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam possimus
                   nemo dolores cupiditate blanditiis deleniti nisi nam nesciunt consectetur necessitatibus dolore,
                   laboriosam quae ab quia.</p>
-              </div>
-              <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-white border-white"><img class="card-img-top" src="assets/img/product/HydraulicOil32.jpg">
-              <div class="card-body">
-                <h4 class="card-title text-uppercase text-black">Hydraulic Oil 32</h4>
-                <p class="card-text text-black">Hydraulic Oil 32 is a ultra-high performance hydraulic fluid formulated with severely hydro treated base stocks. The unique zinc free and ash free anti wear additive system provides enhanced protection for components as compared to traditional hydraulic oil meeting DIN 51524 Part III (HVLP) and Parker Denison HF-0.</p>
-              </div>
-              <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-white border-white"><img class="card-img-top"
-                src="assets/img/product/HydraulicOil46.jpg">
-              <div class="card-body">
-                <h4 class="card-title text-uppercase text-black">Hydraulic Oil 46</h4>
-                <p class="card-text text-black">Hydraulic Oil 46 PREMIUM is blended from deep hydrofinished base stocks and select additives. The additives are designed for optimum compressor operation. The additives are used to enhance the oxidation stability, anti-rust characteristics, anti-wear properties of the oil. The oil has natural demulsification property, low foaming tendency and quick air release property.</p>
-              </div>
-              <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-white border-white"><img class="card-img-top"
-                src="assets/img/product/HydraulicOil68.jpg">
-              <div class="card-body">
-                <h4 class="card-title text-uppercase text-black">Hydraulic Oil 68</h4>
-                <p class="card-text text-black">Hydraulic Oil 68  is blended from deep hydrofinished base stocks and select additives. The additives are designed for optimum compressor operation. The additives are used to enhance the oxidation stability, anti-rust characteristics, anti-wear properties of the oil. The oil has natural demulsification property, low foaming tendency and quick air release property</p>
               </div>
               <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
             </div>
@@ -306,6 +448,36 @@
             </div>
           </div>
           <div class="col-md-4">
+            <div class="card bg-white border-white"><img class="card-img-top" src="assets/img/product/HydraulicOil32.jpg">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-black">Hydraulic Oil 32</h4>
+                <p class="card-text text-black">Hydraulic Oil 32 is a ultra-high performance hydraulic fluid formulated with severely hydro treated base stocks. The unique zinc free and ash free anti wear additive system provides enhanced protection for components as compared to traditional hydraulic oil meeting DIN 51524 Part III (HVLP) and Parker Denison HF-0.</p>
+              </div>
+              <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-white border-white"><img class="card-img-top"
+                src="assets/img/product/HydraulicOil46.jpg">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-black">Hydraulic Oil 46</h4>
+                <p class="card-text text-black">Hydraulic Oil 46 PREMIUM is blended from deep hydrofinished base stocks and select additives. The additives are designed for optimum compressor operation. The additives are used to enhance the oxidation stability, anti-rust characteristics, anti-wear properties of the oil. The oil has natural demulsification property..</p>
+              </div>
+              <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-white border-white"><img class="card-img-top"
+                src="assets/img/product/HydraulicOil68.jpg">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-black">Hydraulic Oil 68</h4>
+                <p class="card-text text-black">Hydraulic Oil 68  is blended from deep hydrofinished base stocks and select additives. The additives are designed for optimum compressor operation. The additives are used to enhance the oxidation stability, anti-rust characteristics, anti-wear properties of the oil. The oil has natural demulsification property.</p>
+              </div>
+              <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
+            </div>
+          </div>
+         
+          <div class="col-md-4">
             <div class="card bg-white border-white"><img class="card-img-top"
                 src="assets/img/product/Quenching Oil.jpg">
               <div class="card-body">
@@ -320,7 +492,7 @@
                 src="assets/img/product/RubberProcessingOil.jpg">
               <div class="card-body">
                 <h4 class="card-title text-uppercase text-black">Rubber Processing Oil</h4>
-                <p class="card-text text-black"><b>RUBBER PROCESS OIL</b> used by manufacturer of finished rubber product, to aid processing and RUBBER EXTENDERS OIL used by raw material manufacturers to soften polymers.</p>
+                <p class="card-text text-black">RUBBER PROCESS OIL is used by manufacturers of finished rubber products to aid processing, and RUBBER EXTENDERS OIL is used by raw material manufacturers to soften polymers. While both serve as processing aids, their applications differ based on the stage of rubber production.</p>
               </div>
               <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
             </div>
@@ -350,7 +522,7 @@
                 src="assets/img/product/EDM Oil.jpg">
               <div class="card-body">
                 <h4 class="card-title text-uppercase text-black">EDM Oil</h4>
-                <p class="card-text text-black"><b>Electric Discharge Machining Oil</b> is a metal removal process involving the removal of material from the work piece by a series of controlled electric discharges or sparks. The tool and the work piece are insulated by a special dielectric fluid. These fluid are formulated with a highly refined, narrow cut paraffinic base stock with excellent oxidation stability which helps reduce the formation of oxidation products that will alter the dielectric strength of the fluid. </p>
+                <p class="card-text text-black"><b>Electric Discharge Machining Oil</b> is a metal removal process involving the removal of material from the work piece by a series of controlled electric discharges or sparks. The tool and the work piece are insulated by a special dielectric fluid.</p>
               </div>
               <button class="btn btn-success" onclick="cuttingOil()"><i class="bi bi-whatsapp"></i> Send Enquiry </button>
             </div>
@@ -387,7 +559,7 @@
     </section>
     <!-- /Clients Section -->
 
-    <section class="bg-white services">
+    <section class="d-none bg-white services">
       <div class="container">
         <div class="row gy-3">
           <div class="sectionhead text-center">
@@ -922,8 +1094,9 @@
       </div>
     </section><!-- /Contact Section -->
   </main>
+  <!-- End banner section -->
   
-  
+  <!-- footer section -->
   <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
       <div class="row gy-4">
@@ -987,6 +1160,7 @@
     </div>
 
   </footer>
+  <!-- End Footer section -->
 
   <!-- Scroll Top --><a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
