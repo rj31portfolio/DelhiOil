@@ -32,79 +32,82 @@
 
 <body class="portfolio-details-page">
 
-  <header id="header" class="header w-100 d-flex align-items-center position-relative">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo --><img src="assets/img/logo-bg.png" alt="">
-        <!-- <h1 class="sitename">Delhi Oil & Chemical Company</h1> -->
-      </a>
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <!-- <li><a href="#team">Team</a></li> -->
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <!-- <li><a href="#">Dropdown 1</a></li> -->
-              <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">CUTTING OIL</a></li>
-                  <li><a href="#">MOBIL OIL</a></li>
-                  <li><a href="#">TRANSFORMER OIL</a></li>
-                  <li><a href="#">HYDRAULIC OIL</a></li>
-                  <li><a href="#">QUENCHING OIL</a></li>
-                  <li><a href="#">STATE CUTTING OIL </a></li>
-                  <li><a href="#">ENGINE OIL </a></li>
-                  <li><a href="#">GEAR OIL 90 </a></li>
-                  <li><a href="#">GEAR OIL 140</a></li>
-                  <li><a href="#">GEAR OIL 320</a></li>
-                  <li><a href="#">Light Liquid Paraffin ( LLP )</a></li>
-                  <li><a href="#">Heavy Liquid Paraffin ( HLP ) </a></li>
-                  <li><a href="#">High Temperature Grease </a></li>
-                  <li><a href="#">Sewing Machine Oil ( White ) </a></li>
-                  <li><a href="#">WHITE OIL</a></li>
-                  <li><a href="#">Pichari Pressure Oil</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>COATINGS</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">PP PRIMER</a></li>
-                  <li><a href="#">PP PRIMER RESIN</a></li>
-                  <li><a href="#">ACRYLIC PAINT </a></li>
-                  <li><a href="#">PU CLEAR</a></li>
-                  <li><a href="#">EVA PRIMER</a></li>
-                  <li><a href="#">UV COATING </a></li>
-                  <li><a href="#">PU SILVER</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>CHEMICALS</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">TOLUENE </a></li>
-                  <li><a href="#">DCP</a></li>
-                  <li><a href="#">STOVING THINNER</a></li>
-                  <li><a href="#">ACRYLIC THINNER</a></li>
-                  <li><a href="#">PU THINNER</a></li>
-                  <li><a href="#">Crystal Chemical ( Crystal silochan )</a></li>
-                  <li><a href="#">ABS Chemical
-                      ( ABS Silochan )</a></li>
-                </ul>
-              </li>
-              <!-- <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li> -->
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav><a class="btn-getstarted bg-danger" href="index.html#about">Get Started</a>
-    </div>
-  </header>
+ <!-- Navbar section -->
+ <header id="header" class="header w-100 d-flex align-items-center position-absolute">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    <a href="index.html"
+      class="logo d-flex align-items-center me-auto">
+      <!-- Uncomment the line below if you also wish to use an image logo --><img class="col-10 col-md-10" src="assets/img/logo-bg.png" alt="">
+      <!-- <h1 class="sitename">Delhi Oil & Chemical Company</h1> -->
+    </a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+        <!-- <li><a href="#team">Team</a></li> -->
+        <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <!-- <li><a href="#">Dropdown 1</a></li> -->
+            <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul class="overflow-auto" style="max-height: 400px;">
+                  <li><a href="../../../Product_Pages/LUBRICANTS/CuttingOil/CuttingOil.html">WATER SOLUBLE CUTTING OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/HydraulicOil/HydraulicOil.html">HYDRAULIC OIL</a></li>
+                  <!-- <li><a href="../../../Product_Pages/LUBRICANTS/">INDUSTRIAL GEAR OIL</a></li> -->
+                  <li><a href="../../../Product_Pages/LUBRICANTS/TransFormerOil/TransFormerOil.html">TRANSFORMER OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/CompressorOil/CompressorOil.html">COMPRESSOR OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/ShutteringOil/ShutteringOil.html">SHUTTERING OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/EDMOil/EDMOil.html">EDM OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/RubberOil/RubberOil.html">RUBBER PROCESSING OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/QuenchingOil/QuenchingOil.html">QUENCHING OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/"class="text-uppercase">Neat Cutting Oil / State Cutting Oil</a></li>
+                <!-- <li><a href="#">Light Liquid Paraffin ( LLP )</a></li>
+                <li><a href="#">Heavy Liquid Paraffin ( HLP ) </a></li>
+                <li><a href="#">High Temperature Grease </a></li>
+                <li><a href="#">Sewing Machine Oil ( White ) </a></li>
+                <li><a href="#">WHITE OIL</a></li>
+                <li><a href="#">Pichari Pressure Oil</a></li> -->
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>COATINGS</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">PP PRIMER</a></li>
+                <li><a href="#">PP PRIMER RESIN</a></li>
+                <li><a href="#">ACRYLIC PAINT </a></li>
+                <li><a href="#">PU CLEAR</a></li>
+                <li><a href="#">EVA PRIMER</a></li>
+                <li><a href="#">UV COATING </a></li>
+                <li><a href="#">PU SILVER</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>CHEMICALS</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">TOLUENE </a></li>
+                <li><a href="#">DCP</a></li>
+                <li><a href="#">STOVING THINNER</a></li>
+                <li><a href="#">ACRYLIC THINNER</a></li>
+                <li><a href="#">PU THINNER</a></li>
+                <li><a href="#">Crystal Chemical ( Crystal silochan )</a></li>
+                <li><a href="#">ABS Chemical
+                    ( ABS Silochan )</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li> -->
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav><a class="btn-getstarted bg-danger d-none d-md-flex" href="index.html#about">Get Started</a>
+  </div>
+</header>
+<!-- End navbar section -->
 
   <main class="main">
 
@@ -112,8 +115,8 @@
     <div class="page-title dark-background">
       <div class="container position-relative">
         <h1>Product Details</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
-          molestias.</p>
+        <!-- <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam
+          molestias.</p> -->
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -130,7 +133,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <div class="portfolio-details-slider swiper init-swiper">
 
               <script type="application/json" class="swiper-config">
@@ -152,27 +155,27 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                  <img src="assets/img/product/lu/c1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                  <img src="assets/img/product/lu/c1.jpg" alt="">
                 </div>
 
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                   <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
+                </div> -->
 
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                   <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
+                </div> -->
 
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Product information</h3>
               <ul>

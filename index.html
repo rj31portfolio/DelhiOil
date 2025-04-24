@@ -23,11 +23,21 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  
+  <style>
+    @media (max-width: 767px) {
+    .bannerHe {
+      font-size: 1.2rem !important;
+      bottom: 1rem !important;
+    }
+  }
+    </style>
 
 </head>
 
@@ -54,12 +64,12 @@
               <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul class="overflow-auto" style="max-height: 400px;">
-                  <li><a href="#">WATER SOLUBLE CUTTING OIL</a></li>
+                  <li><a href="Product_Pages/LUBRICANTS/CuttingOil/CuttingOil.html">WATER SOLUBLE CUTTING OIL</a></li>
                   <li><a href="#">HYDRAULIC OIL</a></li>
                   <li><a href="#">INDUSTRIAL GEAR OIL</a></li>
                   <li><a href="#">TRANSFORMER OIL</a></li>
+                  <li><a href="#">COMPRESSOR OIL</a></li>
                   <li><a href="#">SHUTTERING OIL</a></li>
-                  <li><a href="#" class="text-uppercase">Compressor Oil </a></li>
                   <li><a href="#">EDM OIL</a></li>
                   <li><a href="#">RUBBER PROCESSING OIL</a></li>
                   <li><a href="#">QUENCHING OIL</a></li>
@@ -143,11 +153,11 @@
             class="w-100 d-block"
             alt="First slide"
           />
-          <div class="carousel-caption d-none d-md-block" style="right: 50%; bottom: 9.25rem;"  data-aos-duration="500"  data-aos="zoom-in">
-            <h3 style="font-size: 3.80rem; font-weight: 900;" class="text-white">Experience the
+          <div class="carousel-caption bannerHe" style="right: 50%; bottom: 9.25rem;"  data-aos-duration="500"  data-aos="zoom-in">
+            <h3 style="font-size: 3.80rem; font-weight: 900;" class="bannerHe text-white">Experience the
               thrill of Peak
               Performance!</h3>
-            <p style="font-weight: 700;">The 7100 series offers a hassle-free high performance solution</p>
+            <p style="font-weight: 700;" class="d-none d-md-block">The 7100 series offers a hassle-free high performance solution</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -156,11 +166,12 @@
             class="w-100 d-block"
             alt="Second slide"
           />
-          <div class="carousel-caption d-none d-md-block" style="right: 50%; bottom: 9.25rem;">
-            <h3 style="font-size: 3.80rem; font-weight: 900;" class="text-white" data-aos-duration="1000"  data-aos="fade-down">Experience the
+          <div class="carousel-caption bannerHe" style=" right: 50%; bottom: 9.25rem;">
+            <h3 style=" font-size: 3.80rem; font-weight: 900;" class="bannerHe text-white" data-aos-duration="1000"  data-aos="fade-down">Experience the
               thrill of Peak
               Performance!</h3>
-            <p style="font-weight: 700;">The 7100 series offers a hassle-free high performance solution</p>
+
+            <p style="font-weight: 700;" class="d-none d-md-block">The 7100 series offers a hassle-free high performance solution</p>
           </div>
         </div>
         
@@ -209,9 +220,8 @@
 
       </div>
 
-    </section><!-- /About Section -->
-
-    
+    </section>
+    <!-- /About Section -->
 
     <!-- About Section -->
     <section id="about" class="bg-black about section">
@@ -243,7 +253,7 @@
           <div class="col-md-3">
             <div class="card border-0 text-center"><img class="card-img-top w-50 mx-auto" src="https://png.pngtree.com/png-vector/20221115/ourmid/pngtree-customer-centricity-rgb-color-icon-cartoon-centricity-core-vector-png-image_41187580.jpg" alt="Title" />
               <div class="card-body">
-                <h4 class="card-title">Customer Centric Approach</h4>
+                <h4 class="card-title">Customer Approach</h4>
                 <p class="card-text">Renowned for its customer-first approach, MATROL® delivers expert support, technical insights, and prompt, reliable solutions.</p>
               </div>
             </div>
@@ -1025,7 +1035,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /Faq Section -->
+    </section>
+    <!-- /Faq Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="bg-white contact section">
@@ -1092,7 +1103,8 @@
           <!-- End Contact Form -->
         </div>
       </div>
-    </section><!-- /Contact Section -->
+    </section>
+    <!-- /Contact Section -->
   </main>
   <!-- End banner section -->
   
@@ -1167,9 +1179,9 @@
 
   <!-- Preloader -->
   <div id="preloader"></div>
-  <div class="position-relative"><a class="call" href="tel:+919354491934"><i class="bi bi-telephone"></i></a><a class="whatsapp" href="https://api.whatsapp.com/send/?phone=9354491934&text&type=phone_number&app_absent=0"><i
+  <!-- <div class="position-relative"><a class="call" href="tel:+919354491934"><i class="bi bi-telephone"></i></a><a class="whatsapp" href="https://api.whatsapp.com/send/?phone=9354491934&text&type=phone_number&app_absent=0"><i
         class="bi bi-whatsapp"></i></a>
-  </div>
+  </div> -->
 
 
   <!-- whatsapp section -->
@@ -1181,12 +1193,12 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> -->
+  <!-- <script src="assets/vendor/glightbox/js/glightbox.min.js"></script> -->
+  <!-- <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> -->
+  <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
