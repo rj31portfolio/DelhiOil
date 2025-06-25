@@ -46,12 +46,16 @@
   <!-- Navbar section -->
   <header id="header" class="header w-100 d-flex align-items-center position-absolute">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html"
-        class="logo d-flex align-items-center me-auto">
-       <img class="col-10 col-md-10" src="assets/img/logo-bg.png" alt="">
-      </a>
+     <a href="index.html" class="logo d-flex align-items-center me-auto">
+  <!-- Logo for small screens -->
+  <img src="assets/img/logo-bg-2.png" class="col-10 d-block d-md-none" alt="Small Logo">
+  
+  <!-- Logo for medium and larger screens -->
+  <img src="assets/img/logo-bg.png" class="col-md-10 d-none d-md-block" alt="Large Logo">
+</a>
+
       <nav id="navmenu" class="navmenu">
-        <ul class="display-4">
+        <ul>
           <li><a href="index.html" class="active bold-text">Home</a></li>
           <li><a href="#about" class="text-white bold-text">About</a></li>
 
