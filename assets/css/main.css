@@ -265,7 +265,7 @@ h6 {
 
   .navmenu>ul>li>a:before {
     content: "";
-    position: absolute;
+    position: relative;
     height: 2px;
     bottom: -6px;
     left: 0;
