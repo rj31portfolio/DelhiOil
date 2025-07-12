@@ -36,18 +36,23 @@
       font-family: Arial, sans-serif;
       margin: 20px 0;
     }
-    .viscosity-table th, .viscosity-table td {
+
+    .viscosity-table th,
+    .viscosity-table td {
       border: 1px solid #ddd;
       padding: 8px;
       text-align: center;
     }
+
     .viscosity-table th {
       background-color: #f2f2f2;
       font-weight: bold;
     }
+
     .viscosity-table tr:nth-child(even) {
       background-color: #f9f9f9;
     }
+
     .viscosity-table caption {
       font-weight: bold;
       font-size: 1.2em;
@@ -60,70 +65,83 @@
 <body class="portfolio-details-page">
 
   <!-- Navbar section -->
- <header id="header" class="header w-100 d-flex align-items-center position-absolute bg-white">
-  <div class="container-fluid container-xl position-relative d-flex align-items-center">
-    <a href="../../../index.html"
-      class="logo d-flex align-items-center me-auto">
-     <img class="col-10 col-md-10" src="../../../assets/img/logo-bg-2.png" alt="">
-    </a>
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="../../../index.html" class="active">Home</a></li>
-        <li><a class="text-dark" href="#about">About</a></li>
-        <li><a class="text-dark" href="#services">Services</a></li>
-        
-        <li class="dropdown"><a href="#"><span class="text-dark">Products</span> <i class="bi bi-chevron-down toggle-dropdown text-dark"></i></a>
-          <ul>
-           
-            <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul class="overflow-auto" style="max-height: 400px;">
-                <li><a href="../../../Product_Pages/LUBRICANTS/CuttingOil/CuttingOil.html">WATER SOLUBLE CUTTING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/HydraulicOil/HydraulicOil.html">HYDRAULIC OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/GearOil/GearOil.html">INDUSTRIAL GEAR OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/TransFormerOil/TransFormerOil.html">TRANSFORMER OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/CompressorOil/CompressorOil.html">COMPRESSOR OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/ShutteringOil/ShutteringOil.html">SHUTTERING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/EDMOil/EDMOil.html">EDM OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/RubberOil/RubberOil.html">RUBBER PROCESSING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/QuenchingOil/QuenchingOil.html">QUENCHING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/NeatCuttingOil/neatCuttingOil.html"class="text-uppercase">Neat Cutting Oil</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/straightCuttingOil/straightCuttingOil.html"class="text-uppercase">Straight Cutting Oil</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>COATINGS</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="../../../Product_Pages/COATINGS/pp-primer/pp-primer-home.html">PP PRIMER</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/pp-primer-resin/pp-primer-resin-home.html">PP PRIMER RESIN</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/acrylic-paint/acrylic-paint-home.html">ACRYLIC PAINT </a></li>
-                <li><a href="../../../Product_Pages/COATINGS/pu-clear/pu-clear-home.html">PU CLEAR</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/eva-primer/eva-primer-home.html">EVA PRIMER</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/uv-coating/uv-coating-home.html">UV COATING </a></li>
-                <li><a href="../../../Product_Pages/COATINGS/pu-silver/pu-silver-home.html">PU SILVER</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>CHEMICALS</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="../../../Product_Pages/CHEMICALS/toluene/toluene.html">TOLUENE </a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/dcp/dcp.html">DCP</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/stoving-thinner/stoving-thinner.html">STOVING THINNER</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/acrylic-thinner/acrylic-thinner.html">ACRYLIC THINNER</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/pu-thinner/pu-thinner.html">PU THINNER</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/crystal-chemical/crystal-thinner.html">Crystal Chemical ( Crystal silochan )</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/abs-chemical/abs-chemical.html">ABS Chemical ( ABS Silochan )</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a class="text-dark" href="#contact">Contact</a></li>
-      </ul>
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav><a class="btn-getstarted bg-danger d-none d-md-flex" href="index.html#about">Get Started</a>
-  </div>
-</header>
-<!-- End navbar section -->
+  <header id="header" class="header w-100 d-flex align-items-center position-absolute bg-white">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="../../../index.html" class="logo d-flex align-items-center me-auto">
+        <img class="col-10 col-md-10" src="../../../assets/img/logo-bg-2.png" alt="">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../../../index.html" class="active">Home</a></li>
+          <li><a class="text-dark" href="#about">About</a></li>
+          <li><a class="text-dark" href="#services">Services</a></li>
+
+          <li class="dropdown"><a href="#"><span class="text-dark">Products</span> <i
+                class="bi bi-chevron-down toggle-dropdown text-dark"></i></a>
+            <ul>
+
+              <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul class="overflow-auto" style="max-height: 400px;">
+                  <li><a href="../../../Product_Pages/LUBRICANTS/CuttingOil/CuttingOil.html">WATER SOLUBLE CUTTING
+                      OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/HydraulicOil/HydraulicOil.html">HYDRAULIC OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/GearOil/GearOil.html">INDUSTRIAL GEAR OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/TransFormerOil/TransFormerOil.html">TRANSFORMER OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/CompressorOil/CompressorOil.html">COMPRESSOR OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/ShutteringOil/ShutteringOil.html">SHUTTERING OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/EDMOil/EDMOil.html">EDM OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/RubberOil/RubberOil.html">RUBBER PROCESSING OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/QuenchingOil/QuenchingOil.html">QUENCHING OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/NeatCuttingOil/neatCuttingOil.html"
+                      class="text-uppercase">Neat Cutting Oil</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/straightCuttingOil/straightCuttingOil.html"
+                      class="text-uppercase">Straight Cutting Oil</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>COATINGS</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="../../../Product_Pages/COATINGS/pp-primer/pp-primer-home.html">PP PRIMER</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/pp-primer-resin/pp-primer-resin-home.html">PP PRIMER
+                      RESIN</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/acrylic-paint/acrylic-paint-home.html">ACRYLIC PAINT </a>
+                  </li>
+                  <li><a href="../../../Product_Pages/COATINGS/pu-clear/pu-clear-home.html">PU CLEAR</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/eva-primer/eva-primer-home.html">EVA PRIMER</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/uv-coating/uv-coating-home.html">UV COATING </a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/pu-silver/pu-silver-home.html">PU SILVER</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>CHEMICALS</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="../../../Product_Pages/CHEMICALS/toluene/toluene.html">TOLUENE </a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/dcp/dcp.html">DCP</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/stoving-thinner/stoving-thinner.html">STOVING
+                      THINNER</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/acrylic-thinner/acrylic-thinner.html">ACRYLIC
+                      THINNER</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/pu-thinner/pu-thinner.html">PU THINNER</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/crystal-chemical/crystal-thinner.html">Crystal Chemical
+                      ( Crystal silochan )</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/abs-chemical/abs-chemical.html">ABS Chemical ( ABS
+                      Silochan )</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="text-dark" href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><a class="btn-getstarted bg-danger d-none d-md-flex" href="index.html#about">Get Started</a>
+    </div>
+  </header>
+  <!-- End navbar section -->
 
   <main class="main">
     <!-- Page Title -->
@@ -203,37 +221,40 @@
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Product Heading</h2>
               <p>
-          These are <strong>premium quality oils</strong> manufactured from high quality base stocks fortified with 
-          <strong>extreme pressure additives, antifoam, antirust</strong> and <strong>antioxidation agents</strong>. They offer 
-          excellent oxidation resistance and thermal stability.
-        </p>
-        <p>
-          <strong>PARTHAN EP grades</strong> contain phosphorus and sulfur as extreme pressure agents. These oils are 
-          <strong>non-corrosive to copper and copper alloys</strong>.
-        </p>
-            <div class="col-md-6 mt-4">
-        <h5 class="fw-bold">Specifications</h5>
-        <ul>
-          <li>Meets IS: 8406-1993, USS 224, AGMA standard 250.04</li>
-          <li>DIN 51 517 part 3, IPSS 1-09-003-82</li>
-          <li>CINCINNATI MILACRON P-63, P-77, P-57, P-35</li>
-          <li>Approved by ABBABL projects</li>
-        </ul>
-      </div>
+                These are <strong>premium quality oils</strong> manufactured from high quality base stocks fortified
+                with
+                <strong>extreme pressure additives, antifoam, antirust</strong> and <strong>antioxidation
+                  agents</strong>. They offer
+                excellent oxidation resistance and thermal stability.
+              </p>
+              <p>
+                <strong>PARTHAN EP grades</strong> contain phosphorus and sulfur as extreme pressure agents. These oils
+                are
+                <strong>non-corrosive to copper and copper alloys</strong>.
+              </p>
+              <div class="col-md-6 mt-4">
+                <h5 class="fw-bold">Specifications</h5>
+                <ul>
+                  <li>Meets IS: 8406-1993, USS 224, AGMA standard 250.04</li>
+                  <li>DIN 51 517 part 3, IPSS 1-09-003-82</li>
+                  <li>CINCINNATI MILACRON P-63, P-77, P-57, P-35</li>
+                  <li>Approved by ABBABL projects</li>
+                </ul>
+              </div>
 
-      <div class="col-md-6 mt-4">
-        <h5 class="fw-bold">Application Area</h5>
-        <ul>
-          <li>Heavy duty enclosed gear drives (circulation/splash systems)</li>
-          <li>Plain and antifriction bearings under shock/heavy loads</li>
-          <li>Continuous service at temperatures up to 110°C</li>
-          <li>Suitable for spray lubrication systems needing EP properties</li>
-        </ul>
-      </div>
-    </div>
+              <div class="col-md-6 mt-4">
+                <h5 class="fw-bold">Application Area</h5>
+                <ul>
+                  <li>Heavy duty enclosed gear drives (circulation/splash systems)</li>
+                  <li>Plain and antifriction bearings under shock/heavy loads</li>
+                  <li>Continuous service at temperatures up to 110°C</li>
+                  <li>Suitable for spray lubrication systems needing EP properties</li>
+                </ul>
+              </div>
+            </div>
             <div class="pt-4">
-            <a href="https://wa.me/919811220936/" class="btn btn-outline-danger">Inquiry Now</a>
-           </div>
+              <a href="https://wa.me/919811220936/" class="btn btn-outline-danger">Inquiry Now</a>
+            </div>
           </div>
 
         </div>
@@ -245,110 +266,108 @@
 
     <!-- Specification Table section -->
     <table class="viscosity-table">
-        <!-- <caption>PARTHAN EP</caption> -->
-        <thead>
-          <tr>
-            <th></th>
-            <th>68</th>
-            <th>100</th>
-            <th>150</th>
-            <th>220</th>
-            <th>257</th>
-            <th>320</th>
-            <th>460</th>
-            <th>680</th>
-            <th>1000</th>
-            <th>1500</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Viscosity, cSt @ 40°C</td>
-            <td>62-72</td>
-            <td>95-110</td>
-            <td>135-160</td>
-            <td>210-240</td>
-            <td>250-270</td>
-            <td>300-340</td>
-            <td>440-475</td>
-            <td>625-700</td>
-            <td>950-1100</td>
-            <td>1450-1550</td>
-          </tr>
-          <tr>
-            <td>Viscosity Index</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-            <td>90</td>
-          </tr>
-          <tr>
-            <td>Flash Point COC, °C, min.</td>
-            <td>210</td>
-            <td>220</td>
-            <td>220</td>
-            <td>220</td>
-            <td>220</td>
-            <td>220</td>
-            <td>230</td>
-            <td>220</td>
-            <td>220</td>
-            <td>220</td>
-          </tr>
-          <tr>
-            <td>Pour Point, °C, Max</td>
-            <td>(-)6</td>
-            <td>(-)6</td>
-            <td>(-)6</td>
-            <td>(-)6</td>
-            <td>(-)6</td>
-            <td>(-)6</td>
-            <td>(-)3</td>
-            <td>(-)3</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Timken OK load, kg</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-            <td>60</td>
-          </tr>
-          <tr>
-            <td>FZG, Rig Test, Passes</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-          </tr>
-        </tbody>
-      </table>
-  <!-- End Specification Table section -->
-
-
+      <!-- <caption>PARTHAN EP</caption> -->
+      <thead>
+        <tr>
+          <th></th>
+          <th>68</th>
+          <th>100</th>
+          <th>150</th>
+          <th>220</th>
+          <th>257</th>
+          <th>320</th>
+          <th>460</th>
+          <th>680</th>
+          <th>1000</th>
+          <th>1500</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Viscosity, cSt @ 40°C</td>
+          <td>62-72</td>
+          <td>95-110</td>
+          <td>135-160</td>
+          <td>210-240</td>
+          <td>250-270</td>
+          <td>300-340</td>
+          <td>440-475</td>
+          <td>625-700</td>
+          <td>950-1100</td>
+          <td>1450-1550</td>
+        </tr>
+        <tr>
+          <td>Viscosity Index</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Flash Point COC, °C, min.</td>
+          <td>210</td>
+          <td>220</td>
+          <td>220</td>
+          <td>220</td>
+          <td>220</td>
+          <td>220</td>
+          <td>230</td>
+          <td>220</td>
+          <td>220</td>
+          <td>220</td>
+        </tr>
+        <tr>
+          <td>Pour Point, °C, Max</td>
+          <td>(-)6</td>
+          <td>(-)6</td>
+          <td>(-)6</td>
+          <td>(-)6</td>
+          <td>(-)6</td>
+          <td>(-)6</td>
+          <td>(-)3</td>
+          <td>(-)3</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Timken OK load, kg</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td>FZG, Rig Test, Passes</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End Specification Table section -->
 
   </main>
 
-     <!-- footer section -->
+  <!-- footer section -->
   <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
       <div class="row gy-4">
@@ -361,8 +380,10 @@
             <p class="mt-3"><strong>Phone:</strong> <span>+91-8368271767 </br> +91-9213525029</span></p>
             <p><strong>Email:</strong> <span>matrolindia@gmail.com</span></p>
           </div>
-          <div class="social-links d-flex mt-4"><a href="https://x.com/matrolindia"><i class="bi bi-twitter-x"></i></a><a href="https://www.facebook.com/profile.php?id=61577728659905"><i
-                class="bi bi-facebook"></i></a><a href="https://www.instagram.com/matrolindia/"><i class="bi bi-instagram"></i></a>
+          <div class="social-links d-flex mt-4"><a href="https://x.com/matrolindia"><i
+                class="bi bi-twitter-x"></i></a><a href="https://www.facebook.com/profile.php?id=61577728659905"><i
+                class="bi bi-facebook"></i></a><a href="https://www.instagram.com/matrolindia/"><i
+                class="bi bi-instagram"></i></a>
           </div>
         </div>
 
@@ -390,7 +411,9 @@
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h3>Quality That Drives Performance</h3>
-          <p>Our high-quality oils are crafted for superior engine protection, smooth performance, and long-lasting durability. Designed with precision, they reduce wear, enhance efficiency, and keep your machinery running at its best.</p>
+          <p>Our high-quality oils are crafted for superior engine protection, smooth performance, and long-lasting
+            durability. Designed with precision, they reduce wear, enhance efficiency, and keep your machinery running
+            at its best.</p>
           <!-- <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
             <div class="loading">Loading</div>

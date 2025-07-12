@@ -36,18 +36,23 @@
       font-family: Arial, sans-serif;
       margin: 20px 0;
     }
-    .viscosity-table th, .viscosity-table td {
+
+    .viscosity-table th,
+    .viscosity-table td {
       border: 1px solid #ddd;
       padding: 8px;
       text-align: center;
     }
+
     .viscosity-table th {
       background-color: #f2f2f2;
       font-weight: bold;
     }
+
     .viscosity-table tr:nth-child(even) {
       background-color: #f9f9f9;
     }
+
     .viscosity-table caption {
       font-weight: bold;
       font-size: 1.2em;
@@ -60,70 +65,83 @@
 <body class="portfolio-details-page">
 
   <!-- Navbar section -->
- <header id="header" class="header w-100 d-flex align-items-center position-absolute bg-white">
-  <div class="container-fluid container-xl position-relative d-flex align-items-center">
-    <a href="../../../index.html"
-      class="logo d-flex align-items-center me-auto">
-     <img class="col-10 col-md-10" src="../../../assets/img/logo-bg-2.png" alt="">
-    </a>
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="../../../index.html" class="active">Home</a></li>
-        <li><a class="text-dark" href="#about">About</a></li>
-        <li><a class="text-dark" href="#services">Services</a></li>
-        
-        <li class="dropdown"><a href="#"><span class="text-dark">Products</span> <i class="bi bi-chevron-down toggle-dropdown text-dark"></i></a>
-          <ul>
-           
-            <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul class="overflow-auto" style="max-height: 400px;">
-                <li><a href="../../../Product_Pages/LUBRICANTS/CuttingOil/CuttingOil.html">WATER SOLUBLE CUTTING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/HydraulicOil/HydraulicOil.html">HYDRAULIC OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/GearOil/GearOil.html">INDUSTRIAL GEAR OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/TransFormerOil/TransFormerOil.html">TRANSFORMER OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/CompressorOil/CompressorOil.html">COMPRESSOR OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/ShutteringOil/ShutteringOil.html">SHUTTERING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/EDMOil/EDMOil.html">EDM OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/RubberOil/RubberOil.html">RUBBER PROCESSING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/QuenchingOil/QuenchingOil.html">QUENCHING OIL</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/NeatCuttingOil/neatCuttingOil.html"class="text-uppercase">Neat Cutting Oil</a></li>
-                <li><a href="../../../Product_Pages/LUBRICANTS/straightCuttingOil/straightCuttingOil.html"class="text-uppercase">Straight Cutting Oil</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>COATINGS</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="../../../Product_Pages/COATINGS/pp-primer/pp-primer-home.html">PP PRIMER</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/pp-primer-resin/pp-primer-resin-home.html">PP PRIMER RESIN</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/acrylic-paint/acrylic-paint-home.html">ACRYLIC PAINT </a></li>
-                <li><a href="../../../Product_Pages/COATINGS/pu-clear/pu-clear-home.html">PU CLEAR</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/eva-primer/eva-primer-home.html">EVA PRIMER</a></li>
-                <li><a href="../../../Product_Pages/COATINGS/uv-coating/uv-coating-home.html">UV COATING </a></li>
-                <li><a href="../../../Product_Pages/COATINGS/pu-silver/pu-silver-home.html">PU SILVER</a></li>
-              </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>CHEMICALS</span> <i
-                  class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="../../../Product_Pages/CHEMICALS/toluene/toluene.html">TOLUENE </a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/dcp/dcp.html">DCP</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/stoving-thinner/stoving-thinner.html">STOVING THINNER</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/acrylic-thinner/acrylic-thinner.html">ACRYLIC THINNER</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/pu-thinner/pu-thinner.html">PU THINNER</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/crystal-chemical/crystal-thinner.html">Crystal Chemical ( Crystal silochan )</a></li>
-                <li><a href="../../../Product_Pages/CHEMICALS/abs-chemical/abs-chemical.html">ABS Chemical ( ABS Silochan )</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a class="text-dark" href="#contact">Contact</a></li>
-      </ul>
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-    </nav><a class="btn-getstarted bg-danger d-none d-md-flex" href="index.html#about">Get Started</a>
-  </div>
-</header>
-<!-- End navbar section -->
+  <header id="header" class="header w-100 d-flex align-items-center position-absolute bg-white">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="../../../index.html" class="logo d-flex align-items-center me-auto">
+        <img class="col-10 col-md-10" src="../../../assets/img/logo-bg-2.png" alt="">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../../../index.html" class="active">Home</a></li>
+          <li><a class="text-dark" href="#about">About</a></li>
+          <li><a class="text-dark" href="#services">Services</a></li>
+
+          <li class="dropdown"><a href="#"><span class="text-dark">Products</span> <i
+                class="bi bi-chevron-down toggle-dropdown text-dark"></i></a>
+            <ul>
+
+              <li class="dropdown"><a href="#"><span>LUBRICANTS</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul class="overflow-auto" style="max-height: 400px;">
+                  <li><a href="../../../Product_Pages/LUBRICANTS/CuttingOil/CuttingOil.html">WATER SOLUBLE CUTTING
+                      OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/HydraulicOil/HydraulicOil.html">HYDRAULIC OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/GearOil/GearOil.html">INDUSTRIAL GEAR OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/TransFormerOil/TransFormerOil.html">TRANSFORMER OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/CompressorOil/CompressorOil.html">COMPRESSOR OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/ShutteringOil/ShutteringOil.html">SHUTTERING OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/EDMOil/EDMOil.html">EDM OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/RubberOil/RubberOil.html">RUBBER PROCESSING OIL</a>
+                  </li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/QuenchingOil/QuenchingOil.html">QUENCHING OIL</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/NeatCuttingOil/neatCuttingOil.html"
+                      class="text-uppercase">Neat Cutting Oil</a></li>
+                  <li><a href="../../../Product_Pages/LUBRICANTS/straightCuttingOil/straightCuttingOil.html"
+                      class="text-uppercase">Straight Cutting Oil</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>COATINGS</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="../../../Product_Pages/COATINGS/pp-primer/pp-primer-home.html">PP PRIMER</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/pp-primer-resin/pp-primer-resin-home.html">PP PRIMER
+                      RESIN</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/acrylic-paint/acrylic-paint-home.html">ACRYLIC PAINT </a>
+                  </li>
+                  <li><a href="../../../Product_Pages/COATINGS/pu-clear/pu-clear-home.html">PU CLEAR</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/eva-primer/eva-primer-home.html">EVA PRIMER</a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/uv-coating/uv-coating-home.html">UV COATING </a></li>
+                  <li><a href="../../../Product_Pages/COATINGS/pu-silver/pu-silver-home.html">PU SILVER</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>CHEMICALS</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="../../../Product_Pages/CHEMICALS/toluene/toluene.html">TOLUENE </a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/dcp/dcp.html">DCP</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/stoving-thinner/stoving-thinner.html">STOVING
+                      THINNER</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/acrylic-thinner/acrylic-thinner.html">ACRYLIC
+                      THINNER</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/pu-thinner/pu-thinner.html">PU THINNER</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/crystal-chemical/crystal-thinner.html">Crystal Chemical
+                      ( Crystal silochan )</a></li>
+                  <li><a href="../../../Product_Pages/CHEMICALS/abs-chemical/abs-chemical.html">ABS Chemical ( ABS
+                      Silochan )</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="text-dark" href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><a class="btn-getstarted bg-danger d-none d-md-flex" href="index.html#about">Get Started</a>
+    </div>
+  </header>
+  <!-- End navbar section -->
 
   <main class="main">
     <!-- Page Title -->
@@ -187,7 +205,7 @@
               </div>
               <div class="swiper-pagination"></div>
             </div>
-          </div> 
+          </div>
 
           <div class="col-lg-6">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
@@ -209,9 +227,12 @@
               <h2>Product APPLICATION AREAS</h2>
               <p>
                 These oils are suitable for machining nonferrous metals and light machining and free cutting of
-                steels. Matrol® Straight Cutting Oil 14 & 15 are light coloured low viscosity oils recommended for machining of all
-                metals except titanium. These oils are specially designed for honing applications. Matrol® Straight Cutting Oil 16 & 18
-                have higher viscosity and superior wettability. Matrol® Straight Cutting Oil 18 is acceptable for drawing of non-ferrous
+                steels. Matrol® Straight Cutting Oil 14 & 15 are light coloured low viscosity oils recommended for
+                machining of all
+                metals except titanium. These oils are specially designed for honing applications. Matrol® Straight
+                Cutting Oil 16 & 18
+                have higher viscosity and superior wettability. Matrol® Straight Cutting Oil 18 is acceptable for
+                drawing of non-ferrous
                 rods and tubing as well.
               </p>
               <h4>We Also Deals in these brands with these products</h4>
@@ -222,8 +243,8 @@
             </div>
 
             <div class="pt-4">
-            <a href="https://wa.me/919811220936/" class="btn btn-outline-danger">Inquiry Now</a>
-           </div>
+              <a href="https://wa.me/919811220936/" class="btn btn-outline-danger">Inquiry Now</a>
+            </div>
           </div>
 
         </div>
@@ -235,76 +256,74 @@
 
     <!-- Specification Table section -->
     <div class="container mt-4">
-        <h2 class="mb-4 text-center">Product Specifications</h2>
-        <div class="table-responsive">
-            <table class="table table-bordered table-striped table-hover">
-                <thead class="table-dark">
-                    <tr>
-                        <th>PROPERTIES</th>
-                        <th>TYPICAL VALUES</th>
-                    </tr>
-                </thead>
-                <tbody>
-                  
-                  <tr>
-                    <td></td>
-                   <td>Matrol® Straight Cutting Oil 14</td>
-                   <td>Matrol® Straight Cutting Oil 15</td>
-                   <td>Matrol® Straight Cutting Oil 16</td>
-                   <td>Matrol® Straight Cutting Oil 18</td>
-                   <!-- <td>Matrol® Straight Cutting Oil 15</td>
+      <h2 class="mb-4 text-center">Product Specifications</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>PROPERTIES</th>
+              <th>TYPICAL VALUES</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td></td>
+              <td>Matrol® Straight Cutting Oil 14</td>
+              <td>Matrol® Straight Cutting Oil 15</td>
+              <td>Matrol® Straight Cutting Oil 16</td>
+              <td>Matrol® Straight Cutting Oil 18</td>
+              <!-- <td>Matrol® Straight Cutting Oil 15</td>
                    <td>Matrol® Straight Cutting Oil 15</td> -->
-                </tr>
-                    <tr>
-                        <td>Kinematic Viscosity, cSt @ 40°C </td>
-                        <td>2.2 - 8.4 </td>
-                        <td>3.0 - 9.0 </td>
-                        <td>20.1 - 24.8</td>
-                        <td>20.1- 24.8</td>
-                    </tr>
-                    <tr>
-                        <td>Flash Point, (COC) , °C, Min <br> Copper Strip Corrosion 3 Hr @</td>
-                        
-                        <td>110 </td>
-                        <td>110 </td>
-                        <td>160</td>
-                        <td>150 (PMCC)</td>
-                    </tr>
-                    <tr>
-                        <td>100°C, (ASTM), Max</td>
-                        
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Saponification Number mg KOH/gm</td>
-                        <!-- <td>Matrol® Straight Cutting Oil 15</td> -->
-                        <td>6.0 - 8.5</td>
-                        <td>6.0 - 8.5</td>
-                        <td>9.0 -10.5</td>
-                        <td>18 - 21</td>
-                    </tr>
-                    <tr>
-                        <td>Acidity Organic, mg KOH /gm Oil, Max </td>
-                        <!-- <td>Matrol® Straight Cutting Oil 16</td> -->
-                        <td>-</td>
-                        <td>-</td>
-                        <td>0.1</td>
-                        <td>0.2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+            </tr>
+            <tr>
+              <td>Kinematic Viscosity, cSt @ 40°C </td>
+              <td>2.2 - 8.4 </td>
+              <td>3.0 - 9.0 </td>
+              <td>20.1 - 24.8</td>
+              <td>20.1- 24.8</td>
+            </tr>
+            <tr>
+              <td>Flash Point, (COC) , °C, Min <br> Copper Strip Corrosion 3 Hr @</td>
+
+              <td>110 </td>
+              <td>110 </td>
+              <td>160</td>
+              <td>150 (PMCC)</td>
+            </tr>
+            <tr>
+              <td>100°C, (ASTM), Max</td>
+
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Saponification Number mg KOH/gm</td>
+              <!-- <td>Matrol® Straight Cutting Oil 15</td> -->
+              <td>6.0 - 8.5</td>
+              <td>6.0 - 8.5</td>
+              <td>9.0 -10.5</td>
+              <td>18 - 21</td>
+            </tr>
+            <tr>
+              <td>Acidity Organic, mg KOH /gm Oil, Max </td>
+              <!-- <td>Matrol® Straight Cutting Oil 16</td> -->
+              <td>-</td>
+              <td>-</td>
+              <td>0.1</td>
+              <td>0.2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-  <!-- End Specification Table section -->
-
-
+    <!-- End Specification Table section -->
 
   </main>
 
-    <!-- footer section -->
+  <!-- footer section -->
   <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
       <div class="row gy-4">
@@ -317,8 +336,10 @@
             <p class="mt-3"><strong>Phone:</strong> <span>+91-8368271767 </br> +91-9213525029</span></p>
             <p><strong>Email:</strong> <span>matrolindia@gmail.com</span></p>
           </div>
-          <div class="social-links d-flex mt-4"><a href="https://x.com/matrolindia"><i class="bi bi-twitter-x"></i></a><a href="https://www.facebook.com/profile.php?id=61577728659905"><i
-                class="bi bi-facebook"></i></a><a href="https://www.instagram.com/matrolindia/"><i class="bi bi-instagram"></i></a>
+          <div class="social-links d-flex mt-4"><a href="https://x.com/matrolindia"><i
+                class="bi bi-twitter-x"></i></a><a href="https://www.facebook.com/profile.php?id=61577728659905"><i
+                class="bi bi-facebook"></i></a><a href="https://www.instagram.com/matrolindia/"><i
+                class="bi bi-instagram"></i></a>
           </div>
         </div>
 
@@ -346,7 +367,9 @@
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h3>Quality That Drives Performance</h3>
-          <p>Our high-quality oils are crafted for superior engine protection, smooth performance, and long-lasting durability. Designed with precision, they reduce wear, enhance efficiency, and keep your machinery running at its best.</p>
+          <p>Our high-quality oils are crafted for superior engine protection, smooth performance, and long-lasting
+            durability. Designed with precision, they reduce wear, enhance efficiency, and keep your machinery running
+            at its best.</p>
           <!-- <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
             <div class="loading">Loading</div>
