@@ -1857,3 +1857,8 @@ section,
   }
 }
 /* End reel section */
+@media (max-width: 991.98px) {
+  #navmenu a {
+    color: #000 !important;
+  }
+}
